@@ -122,7 +122,7 @@ function Catalog() {
           </div>
           <div className="flex min-w-52 items-center gap-3 text-sm">
             <span className="text-muted-foreground">Up to</span>
-            <Slider value={[max]} min={50} max={500} step={10} onValueChange={(v) => setMax(v[0])} className="flex-1" />
+            <Slider value={[max]} min={50} max={500} step={10} onValueChange={(v) => setMax(v[0] ?? 500)} className="flex-1" />
             <span className="w-20 text-right font-semibold">{fmt(max)}</span>
           </div>
         </div>
@@ -137,7 +137,7 @@ function Catalog() {
 
 function ProductCard({ p }: { p: Product }) {
   const { add, fmt, setActive } = useStore();
-  const [color, setColor] = useState(p.colors[0]);
+  const [color, setColor] = useState(p.colors[0]!);
   return (
     <article className="group flex flex-col overflow-hidden rounded-3xl glass glow-hover animate-fade-in">
       <button onClick={() => setActive(p)} className="relative aspect-square overflow-hidden bg-card">
