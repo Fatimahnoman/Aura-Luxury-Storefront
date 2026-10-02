@@ -70,7 +70,7 @@ function Navbar() {
 
 function Hero() {
   const { setActive, fmt } = useStore();
-  const p = PRODUCTS[0];
+  const p = PRODUCTS[0]!;
   const badges = [
     { icon: Waves, t: "Active Noise Cancellation", c: "left-0 top-10" },
     { icon: Battery, t: "40h Battery", c: "right-0 top-1/3" },
