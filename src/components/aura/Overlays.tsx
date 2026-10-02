@@ -83,7 +83,7 @@ export function CartDrawer() {
       <SheetContent side="right" className="flex w-full flex-col border-l border-border bg-background sm:max-w-md">
         <SheetHeader><SheetTitle className="font-display text-2xl">Your Cart</SheetTitle></SheetHeader>
         <div className="rounded-2xl glass p-4">
-          <p className="mb-2 text-sm">{left > 0 ? <>Add <span className="font-semibold text-primary">{fmt(left)}</span> more for Free Express Shipping!</> : <span className="text-primary">🎉 You've unlocked Free Express Shipping</span>}</p>
+          <p className="mb-2 text-sm">{left > 0 ? <>Add <span className="font-semibold text-primary">{fmt(left)}</span> more for Free Express Shipping!</> : <span className="text-primary">You've unlocked Free Express Shipping</span>}</p>
           <div className="h-2 overflow-hidden rounded-full bg-muted"><div className="h-full bg-gradient-primary transition-all duration-500" style={{ width: `${pct}%` }} /></div>
         </div>
         <div className="-mx-2 flex-1 space-y-3 overflow-y-auto px-2">
