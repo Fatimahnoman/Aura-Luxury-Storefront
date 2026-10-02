@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import { Search, ShoppingBag, MessageCircle, Star, Battery, Headphones, Waves, ShieldCheck, Zap, Clock, Package, Send } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 import { PRODUCTS, useStore, waLink, type Category, type Product } from "@/lib/store";
-import { CartDrawer, CheckoutModal, ProductModal, btnGhost, btnPrimary, btnWa } from "@/components/aura/Overlays";
+import { CartDrawer, CheckoutModal, ProductModal, btnPrimary, btnWa } from "@/components/aura/Overlays";
 import hero from "@/assets/headphones.jpg";
 
 export const Route = createFileRoute("/")({
@@ -240,4 +240,3 @@ function Footer() {
   );
 }
 
-export { btnGhost };
