@@ -12,9 +12,9 @@
 
 ## 🔗 Live Demo & Links
 
-* 🚀 **Live Demo:** [https://pixel-perfect-render-5518.lovable.app](https://pixel-perfect-render-5518.lovable.app)
+* 🚀 **Live Demo:** [https://nexus-saas-dashboard-sepia.vercel.app/](https://nexus-saas-dashboard-sepia.vercel.app/)
 * 💼 **Portfolio:** [https://fatimah-ai.vercel.app](https://fatimah-ai.vercel.app)
-* 📄 **Repository:** [https://github.com/YOUR_GITHUB_USERNAME/aura-luxury-storefront](https://github.com/YOUR_GITHUB_USERNAME/aura-luxury-storefront)
+* 📄 **Repository:** [https://github.com/Fatimahnoman/aura-luxury-storefront](https://github.com/Fatimahnoman/aura-luxury-storefront)
 
 ---
 
@@ -53,7 +53,7 @@ Clone the project and run it locally:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/YOUR_GITHUB_USERNAME/aura-luxury-storefront.git](https://github.com/YOUR_GITHUB_USERNAME/aura-luxury-storefront.git)
+git clone [https://github.com/Fatimahnoman/aura-luxury-storefront.git](https://github.com/Fatimahnoman/aura-luxury-storefront.git)
 
 # 2. Navigate to project directory
 cd aura-luxury-storefront
